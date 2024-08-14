@@ -1169,6 +1169,7 @@ Object {
     "neutral500": "#8c8c8c",
     "neutral600": "#737373",
     "neutral700": "#4e4e4e",
+    "neutral75": "#eeeeee",
     "neutral800": "#363636",
     "neutral900": "#111111",
     "neutralDark": "#777777",

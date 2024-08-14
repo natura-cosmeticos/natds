@@ -32,6 +32,7 @@ export default {
   }
 } as Meta
 
+// eslint-disable-next-line no-console
 const onClick = () => console.log('Tab is clicked')
 
 export const Playground: Story<TabProps> = (args) => (

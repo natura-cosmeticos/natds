@@ -2,6 +2,7 @@
 /* eslint-disable complexity */
 /* eslint-disable max-lines-per-function */
 /* eslint-disable max-len */
+
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { buildTheme } from '../../ThemeProvider'

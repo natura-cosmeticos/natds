@@ -34,6 +34,7 @@ export default {
   }
 } as Meta
 
+// eslint-disable-next-line no-console
 export const Playground: Story<IconButtonProps> = (args) => <IconButton {...args} onClick={() => console.log('clicked!')} />
 Playground.args = {
   IconComponent: <Icon size="standard" name="outlined-default-mockup" color="highEmphasis" />
