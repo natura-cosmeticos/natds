@@ -8,4 +8,6 @@ export interface AccordionGroupProps {
    * Optional ID for testing
    */
   testID?: string;
+
+  children?: React.ReactNode
 }

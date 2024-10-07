@@ -1,6 +1,10 @@
 import React from 'react'
 import { createUseStyles } from 'react-jss'
 
+interface StoryContainerProps {
+  children: React.ReactNode
+}
+
 const styles = createUseStyles({
   container: {
     display: 'flex',
@@ -11,7 +15,7 @@ const styles = createUseStyles({
   }
 })
 
-const StoryContainer: React.FC = ({ children }) => {
+const StoryContainer = ({ children }: StoryContainerProps): JSX.Element => {
   const classes = styles()
 
   return (

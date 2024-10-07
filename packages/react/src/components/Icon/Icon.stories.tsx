@@ -38,7 +38,7 @@ export default {
 export const Playground: Story<IconProps> = (args) => <Icon {...args} />
 export const Icons: Story<IconProps> = (args) => <Icon {...args} />
 
-export const SearchIcon: Story<IconProps> = (args) => {
+export const SearchIcon: Story<IconProps> = () => {
   const [value, setValue] = useState(iconNames[0])
   const [filterOptionsN] = useState<OptionProps[]>(iconNames.map((icon) => ({ value: icon, label: icon })))
   const [filterOptions, setFilterOptions] = useState<OptionProps[]>(iconNames.map((icon) => ({ value: icon, label: icon })))
@@ -47,6 +47,7 @@ export const SearchIcon: Story<IconProps> = (args) => {
     setValue(values.label)
     handleChange(values.label)
   }
+
   const handleChange = (values: string) => {
     setValue(values)
 
@@ -107,7 +108,7 @@ export const SearchIcon: Story<IconProps> = (args) => {
 }
 SearchIcon.args = { ...Playground.args }
 
-export const ListIcon: Story<IconProps> = (args) => {
+export const ListIcon: Story<IconProps> = () => {
   const [filterOptionsN] = useState<OptionProps[]>(iconNames.map((icon) => ({ value: icon, label: icon })))
   const [filterOptions] = useState<OptionProps[]>(filterOptionsN)
 
