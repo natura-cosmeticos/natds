@@ -57,7 +57,7 @@ const styles = createUseStyles<typeRuler, StyleProps, Theme>((theme: Theme) => (
     display: 'flex',
     position: 'absolute',
     right: '-5px',
-    left: ({ point }) => (point ? `${point - 10}%` : '0%'),
+    left: ({ point }) => (point ? `${Math.min(Math.max(point, 0), 100) - 10}%` : '0%'),
     top: '-8px',
     width: 56,
     height: 24,
