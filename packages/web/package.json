@@ -84,8 +84,8 @@
   "peerDependencies": {
     "@types/react": ">= 16.8.6",
     "@types/react-dom": "17.0.13",
-    "react": ">= 16.8.4",
-    "react-dom": ">= 16.8.4"
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "peerDependenciesMeta": {
     "@types/react": {
@@ -96,7 +96,7 @@
     }
   },
   "engines": {
-    "node": ">=10.13.0"
+    "node": "23.8.0"
   },
   "publishConfig": {
     "access": "public"
