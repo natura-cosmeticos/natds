@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-react",
   "displayName": "NatDS-React",
   "description": "A collection of components from Natura Design System for React",
-  "version": "2.65.2",
+  "version": "2.66.0-alpha.DSY-5577.1.0",
   "private": false,
   "keywords": [
     "design-system",
@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@naturacosmeticos/natds-icons": "1.28.1",
-    "@naturacosmeticos/natds-themes": "0.82.9",
+    "@naturacosmeticos/natds-themes": "0.83.0",
     "react-jss": "10.9.0"
   },
   "devDependencies": {

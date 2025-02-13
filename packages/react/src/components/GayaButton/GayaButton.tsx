@@ -43,8 +43,8 @@ const GayaButton = React.forwardRef<HTMLButtonElement, GayaButtonProps>(({
     ...rest
   })
 
-  const theme: Theme = useTheme()
-  const iconColor = theme.button[variant].color.enable.label as IconColor
+  const themes: Theme = useTheme()
+  const iconColor = themes.button[variant].color.enable.label as IconColor
 
   return (
     <Ripple brand={brand} disabled={disabled} fullWidth={fullWidth}>

@@ -8,7 +8,7 @@ import { GayaButtonProps } from './GayaButton.props'
 import GayaButton from './GayaButton'
 import StoryContainer from '../../helpers/StoryContainer'
 
-// theme version 0.82.1
+// theme version 0.83.0
 
 const componentStatus = `
 

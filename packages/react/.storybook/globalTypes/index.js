@@ -8,6 +8,8 @@ export const globalTypes = {
       items: [
         { value: 'aesop', title: 'Aesop' },
         { value: 'avon', title: 'Avon' },
+        { value: 'avon_v2', title: 'Avon V2' },
+        { value: 'avon_v3', title: 'Avon V3' },
         { value: 'natura', title: 'Natura' },
         { value: 'theBodyShop', title: 'The Body Shop' },
         { value: 'consultoriaDeBeleza', title: 'Consultoria de Beleza' },
@@ -17,8 +19,7 @@ export const globalTypes = {
         { value: 'natura_v2', title: 'Natura V2' },
         { value: 'natura_v3', title: 'Natura V3' },
         { value: 'casaEestilo', title: 'Casa & Estilo' },
-        { value: 'casaEestilo_v2', title: 'Casa & Estilo V2' },
-        { value: 'avon_v2', title: 'Avon V2' },
+        { value: 'casaEestilo_v2', title: 'Casa & Estilo V2' }
       ],
     },
   },

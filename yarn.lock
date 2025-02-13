@@ -2707,10 +2707,10 @@
     svg2vectordrawable "2.6.26"
     webp-converter "^2.3.3"
 
-"@naturacosmeticos/natds-themes@0.82.9":
-  version "0.82.9"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.82.9.tgz#7824620c73c19a594f5761550a9c5181f0c8d28a"
-  integrity sha512-tasTB3n0xbcbZ5VnS9Hb2RTvXtHQdvaxqlERDcJxEMSZrIUgILSbB7c6je1u8gFCBrA/634dIyvviD/ir2tvEA==
+"@naturacosmeticos/natds-themes@0.83.0":
+  version "0.83.0"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.83.0.tgz#a9f1f3fe0724bc46cdcc3495839e6ce3343cdaff"
+  integrity sha512-QH6yDgumzztI7uif8YOGjd6m8FiIg7ls2Lm2hHMHRiup80GXUduuzZsA975t3KevaOpSSdvtJhe0wWzcS7SvFQ==
   dependencies:
     open-color "^1.8.0"
     svg2vectordrawable "2.6.26"
